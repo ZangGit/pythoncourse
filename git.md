@@ -58,6 +58,7 @@ git rm --cached	文件名	#kæʃt取消文件暂存记录
 
 ```shell
 git commit [file] -m [message]	#kəˈmɪt将文件同步到本地仓库
+git commit -m 'init add'
 ```
 
 ```shell
