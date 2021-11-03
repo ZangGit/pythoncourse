@@ -169,6 +169,13 @@ git branch -D [branch]  #删除没有被合并的分支
 
 GitHub
 
+[生成token][https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token]
+
+```
+头像=>Settings=>Developer settings=>personal access tokens=>note (input)=>Expiration（token期限)=>Generate token(生成token)
+#FAQ 如果无法输入新密码，可先将计算机中原来的凭据彻底删除，删除方法是,控制面板>用户账户>凭据管理器>Windows凭据，然后找出所有与git有关的凭据，统统删除。
+```
+
 在左上角搜索栏搜索想要的获取的项目
 
 选择项目后复制项目git地址
